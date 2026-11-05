@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" fill="none" shape-rendering="crispEdges">
+  <title>Rifle pixel art com skin roxa e detalhes ciano</title>
+  <!-- Angular stepped silhouette, with muzzle on the left. -->
+  <path d="M12 40h24v8h88v-8h16v16h32V40h16v24h92V48h24v16h32v8h68v8h44v8h32v8h56v-8h32v8h28v16h20v16h-12v16h-20v16h-24v-8h-20v-8h-20v-8h-56v-8h-20v16h-8v16h-16v16h-16v8h-16v-8h-16v-16h-8v-16h-24v16h-8v16h-8v16h-8v16h-16v16h-16v8h-40v-8h-24v-8h16v-8h16v-16h8v-24h8v-40h-24v24h-40v-8h-16v-8h-8v-8h-24v-8h-24v-8h-32V96h-32v-8h-24v-8H36v-8H12V40Z" fill="#0d0c1b"/>
+  <!-- Barrel and front sight. -->
+  <path d="M20 48h12v16H20z" fill="#536776"/>
+  <path d="M32 56h96v8H32z" fill="#8994a3"/>
+  <path d="M36 64h92v8H36z" fill="#343448"/>
+  <path d="M128 48h8v24h-8z" fill="#64748b"/>
+  <path d="M136 64h40v16h-40z" fill="#516074"/>
+  <path d="M144 64h32v8h-32z" fill="#93a5b5"/>
+  <path d="M176 48h8v40h-8z" fill="#66758a"/>
+  <path d="M184 72h32v8h-32z" fill="#606a7b"/>
+  <path d="M144 80h64v8h-64z" fill="#232a41"/>
+  <!-- Magenta segmented handguard. -->
+  <path d="M192 72h88v24h-88z" fill="#7136af"/>
+  <path d="M184 80h16v16h-16z" fill="#9221a1"/>
+  <path d="M200 72h24v8h-24zm40 0h24v8h-24z" fill="#e74acb"/>
+  <path d="M192 88h88v8h-88z" fill="#4e298c"/>
+  <path d="M200 96h80v8h-80z" fill="#3e215f"/>
+  <path d="M208 80h8v16h-8zm24 0h8v16h-8zm24 0h8v16h-8z" fill="#bd39cf"/>
+  <path d="M192 80h16v8h-16zm40 8h16v8h-16zm24-8h24v8h-24z" fill="#4ee6d3"/>
+  <!-- Dust cover and receiver. -->
+  <path d="M288 56h8v16h-8z" fill="#778492"/>
+  <path d="M280 72h48v8h-48z" fill="#8493ad"/>
+  <path d="M280 80h56v8h-56z" fill="#b789ed"/>
+  <path d="M280 88h112v16H280z" fill="#8350cb"/>
+  <path d="M280 104h128v16H280z" fill="#65359f"/>
+  <path d="M304 120h104v8H304z" fill="#392752"/>
+  <path d="M328 80h68v8h-68z" fill="#343c55"/>
+  <path d="M344 88h48v8h-48z" fill="#6a768c"/>
+  <path d="M360 96h40v8h-40z" fill="#29273e"/>
+  <path d="M288 96h32v8h-32zm8 8h24v8h-24zm16 8h16v8h-16z" fill="#30dbc7"/>
+  <path d="M328 88h8v16h-8zm8 16h8v16h-8zm8 16h16v8h-16z" fill="#f02ec5"/>
+  <path d="M352 112h16v8h-16z" fill="#d29bff"/>
+  <path d="M376 104h24v8h-24z" fill="#a265e2"/>
+  <path d="M392 88h40v8h-40z" fill="#9c78bd"/>
+  <path d="M400 96h40v8h-40z" fill="#643c8c"/>
+  <path d="M416 104h32v16h-32z" fill="#37324e"/>
+  <!-- Trigger guard. -->
+  <path d="M248 112h8v16h16v-16h8v24h-32v-8h-8v-8h-8v-8h16Z" fill="#8390a0"/>
+  <path d="M256 112h8v8h-8z" fill="#25283d"/>
+  <!-- Swept magazine with segmented cyan stripes. -->
+  <path d="M288 128h40v24h-8v24h-8v16h-16v16h-16v8h-24v-8h-16v-8h24v-16h8v-24h8v-32h8Z" fill="#4b327c"/>
+  <path d="M296 128h24v24h-8v24h-8v16h-16v16h-16v-8h8v-16h8v-24h8v-32Z" fill="#8b55c5"/>
+  <path d="M288 144h32v8h-32zm-8 24h32v8h-32zm-8 24h24v8h-24z" fill="#22d3bd"/>
+  <path d="M304 128h16v8h-16zm-8 32h16v8h-16zm-8 24h16v8h-16z" fill="#cb72e3"/>
+  <!-- Angled grip. -->
+  <path d="M360 128h32v16h-8v16h-16v8h-8v-16h-8v-8h8v-16Z" fill="#7f36a1"/>
+  <path d="M368 136h16v16h-16z" fill="#da3ac1"/>
+  <path d="M360 144h8v8h-8zm8 8h8v8h-8z" fill="#9b4cc8"/>
+  <!-- Stock extends to the right with stepped cheek rest. -->
+  <path d="M448 104h40v-8h24v8h24v16h20v8h-8v8h-20v16h-16v-8h-20v-8h-20v-8h-24v-24Z" fill="#6a358d"/>
+  <path d="M456 104h32v8h24v8h24v8h-8v8h-24v-8h-24v-8h-24v-16Z" fill="#a344bb"/>
+  <path d="M480 104h8v-8h24v8h16v8h-40v-8h-8Z" fill="#d967d5"/>
+  <path d="M488 120h16v8h16v8h-16v-8h-16v-8Z" fill="#53e0d1"/>
+  <path d="M536 112h12v16h-8v16h-12v-16h8v-16Z" fill="#333849"/>
+  <path d="M536 112h8v8h-8z" fill="#78849a"/>
+  <!-- Single-pixel highlights keep the asset readable at small sizes. -->
+  <path d="M48 56h8v8h-8zm64 0h8v8h-8z" fill="#c9dee5"/>
+  <path d="M280 88h8v8h-8zm32-8h8v8h-8zm72 8h8v8h-8z" fill="#eed8ff"/>
+  <path d="M408 112h8v8h-8zm40 8h8v8h-8z" fill="#18a79f"/>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "name": "tiro-alvo-premiado",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"node --watch server/index.mjs\" \"vite --host 0.0.0.0\"",
+    "build": "tsc -b && vite build",
+    "start": "node server/index.mjs --production",
+    "local": "node scripts/local.mjs",
+    "test": "node --test server/*.test.mjs",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "^5.2.8",
+    "@fontsource/dm-sans": "^5.2.8",
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.1.2",
+    "typescript": "~5.7.3",
+    "vite": "^6.4.0"
+  }
+}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#111423"/><stop offset=".52" stop-color="#484052"/><stop offset="1" stop-color="#c09881"/></linearGradient>
+    <linearGradient id="haze" x1="800" y1="370" x2="800" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#cfaa8b" stop-opacity=".2"/><stop offset="1" stop-color="#363039" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ground" x1="785" y1="566" x2="815" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#776a61"/><stop offset="1" stop-color="#433f42"/></linearGradient>
+    <linearGradient id="wall" x1="850" y1="217" x2="850" y2="635" gradientUnits="userSpaceOnUse"><stop stop-color="#c7ad8b"/><stop offset="1" stop-color="#8a7967"/></linearGradient>
+    <linearGradient id="left" x1="0" y1="180" x2="490" y2="672" gradientUnits="userSpaceOnUse"><stop stop-color="#b79f82"/><stop offset="1" stop-color="#72665e"/></linearGradient>
+    <linearGradient id="right" x1="1240" y1="240" x2="1600" y2="690" gradientUnits="userSpaceOnUse"><stop stop-color="#b49c81"/><stop offset="1" stop-color="#665c57"/></linearGradient>
+    <linearGradient id="door" x1="800" y1="393" x2="800" y2="657" gradientUnits="userSpaceOnUse"><stop stop-color="#282a31"/><stop offset="1" stop-color="#454047"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#ffdfa0" stop-opacity=".3"/><stop offset="1" stop-color="#ffdfa0" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" patternUnits="userSpaceOnUse" width="110" height="84"><path d="M9 11h3m57 12h2M34 67h4m61-27h2M53 46h3M20 35h2m60 40h3" stroke="#e4d0ac" stroke-opacity=".12" stroke-width="2"/><path d="M35 16h5m-15 39h3m45 7h3M93 7h4" stroke="#362d2f" stroke-opacity=".12" stroke-width="2"/></pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1193" cy="124" r="29" fill="#ddd5c1" opacity=".68"/>
+  <circle cx="1202" cy="117" r="28" fill="#252434"/>
+  <g fill="#b6b1c5" opacity=".48"><circle cx="228" cy="88" r="1.4"/><circle cx="450" cy="49" r="1"/><circle cx="699" cy="103" r="1.3"/><circle cx="904" cy="53" r="1"/><circle cx="1063" cy="177" r="1.2"/><circle cx="1430" cy="78" r="1.5"/><circle cx="1335" cy="223" r="1"/><circle cx="532" cy="151" r="1"/><circle cx="766" cy="37" r="1.2"/></g>
+  <!-- Distant roofline, satellite dishes and a slender tower. -->
+  <path d="M284 380v-61h70v-42h64v25h106v-57h76v51h56v-92h51v-43h17v43h25v132h91v-70h68v32h89v-71h92v31h115v-43h56v96h115v82H284Z" fill="#635960"/>
+  <path d="M679 204h51v-13h-51zm7-43h38l-19-29-19 29Z" fill="#887879"/>
+  <path d="M705 133v-35m-3 0h6" stroke="#8e7d7f" stroke-width="3"/>
+  <path d="M943 219v-51m0 11h28m-28 10h-22" stroke="#82737a" stroke-width="3"/>
+  <path d="m1094 255-11-28 29-7c0 16-5 27-18 35Z" fill="#897c7d"/>
+  <path d="m1094 250 5 22" stroke="#897c7d" stroke-width="4"/>
+  <path d="M0 574 652 530h428l520 63v307H0V574Z" fill="url(#ground)"/>
+  <!-- Central training courtyard. -->
+  <path d="M363 311h861v276H363z" fill="url(#wall)"/>
+  <path d="M363 311h861v22H363z" fill="#d0b899"/>
+  <path d="m350 311 18-26h846l22 26H350Z" fill="#a38d75"/>
+  <path d="M363 332h861v8H363z" fill="#7b6b5d" opacity=".5"/>
+  <path d="M364 544h859v43H364z" fill="#776b60"/>
+  <path d="M397 347h788v182H397z" fill="url(#grain)"/>
+  <path d="M557 340v203m461-203v203" stroke="#65594e" stroke-opacity=".15" stroke-width="2"/>
+  <path d="m415 371 8 36-5 13 10 21m669-88-5 18 9 12-5 22" stroke="#746255" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M737 587V441c0-38 29-70 66-70s67 32 67 70v146H737Z" fill="#d3b794"/>
+  <path d="M750 587V443c0-32 22-58 53-58s54 26 54 58v144H750Z" fill="url(#door)"/>
+  <path d="M755 441c0-28 20-52 48-52s49 24 49 52" stroke="#554b45" stroke-width="6"/>
+  <path d="M773 439h61v148h-61z" fill="#3b363b"/>
+  <path d="M803 437v150m-25-101h51m-51 53h51" stroke="#23262d" stroke-width="3"/>
+  <path d="M787 504h7m17 0h7" stroke="#c0a67b" stroke-width="3"/>
+  <path d="m737 587-51 39h238l-54-39H737Z" fill="#242730" fill-opacity=".35"/>
+  <!-- Left building: thick walls, timber awning, deep arched passage. -->
+  <path d="M0 112 319 208v395L0 774V112Z" fill="url(#left)"/>
+  <path d="m319 208 141 91v297l-141 7V208Z" fill="#776b60"/>
+  <path d="m0 112 319 96 141 91-32 7-127-80L0 137v-25Z" fill="#cfb496"/>
+  <path d="m0 257 319 51 141 48v28l-141-47L0 292v-35Z" fill="#655b57"/>
+  <path d="m0 252 319 49 158 48-18 17-140-45L0 271v-19Z" fill="#a58c71"/>
+  <path d="m0 278 319 46 133 44" stroke="#3e393a" stroke-width="5"/>
+  <path d="M0 150 300 236v355L0 751V150Z" fill="url(#grain)"/>
+  <path d="M79 662V429c0-47 28-81 65-83s71 30 71 77v166L79 662Z" fill="#d0b18d"/>
+  <path d="M93 649V432c0-40 23-70 51-71s56 25 56 65v170L93 649Z" fill="#292b31"/>
+  <path d="M116 635V441c0-31 13-52 35-56l49 30v181l-84 39Z" fill="#454047"/>
+  <path d="m117 635 83-39V426l-23 15v158l-60 36Z" fill="#24272f"/>
+  <path d="m62 476 18-8m-18 70 18-7m-17 70 16-7m138-165 18 3m-18 54 18-1m-18 53 18-5" stroke="#7d6c5e" stroke-width="3"/>
+  <path d="m255 244 35 10v59l-35-6v-63Z" fill="#4c4947"/>
+  <path d="m261 253 23 7v43l-23-4v-46Z" fill="#2c2e33"/>
+  <path d="m0 431 51-10v44L0 479v-48Z" fill="#8c7966"/>
+  <path d="m320 358 114 36v18l-114-34v-20Z" fill="#b69a7e"/>
+  <path d="M361 417v103l41-3v-91l-41-9Z" fill="#39383d"/>
+  <path d="m366 425 31 6v79l-31 2v-87Z" fill="#686058"/>
+  <path d="M373 429v78m13-74v72" stroke="#282b31" stroke-width="4"/>
+  <!-- Right tower and elevated bridge. -->
+  <path d="m1186 279 254-100 160 53v520l-160-75-254-86V279Z" fill="url(#right)"/>
+  <path d="m1440 179 160 53v520l-160-75V179Z" fill="#6b615c"/>
+  <path d="m1168 278 273-118 159 58v27l-160-48-254 99-18-18Z" fill="#d2b797"/>
+  <path d="m1185 298 255-99v21l-255 94v-16Z" fill="#756555"/>
+  <path d="m1204 327 216-80v330l-216-67V327Z" fill="url(#grain)"/>
+  <path d="m1228 344 54-18v88l-54 7v-77Z" fill="#433d3d"/>
+  <path d="m1236 351 37-12v66l-37 6v-60Z" fill="#292c33"/>
+  <path d="m1245 345 7-3v66l-7 1v-64Z" fill="#635a51"/>
+  <path d="m1351 302 45-17v99l-45 8v-90Z" fill="#443e3e"/>
+  <path d="m1358 310 31-11v77l-31 5v-71Z" fill="#2b2d35"/>
+  <path d="m1185 450 255-23 160 30v27l-160-34-255 20v-20Z" fill="#b69a7f"/>
+  <path d="m1200 473 240-21 160 34v17l-160-34-240 19v-15Z" fill="#514b48"/>
+  <path d="m1440 220 160 48v147l-160-16V220Z" fill="url(#grain)"/>
+  <path d="m1483 298 61 12v74l-61-8v-78Z" fill="#33333a"/>
+  <path d="m1491 307 44 9v58l-44-5v-62Z" fill="#4b4545"/>
+  <path d="m1503 308 6 2v61l-6-1v-62Z" fill="#2a2b31"/>
+  <!-- Foreground cover crates, deliberately clear of the aim area. -->
+  <path d="m192 659 193-24 109 54-187 38-115-68Z" fill="#998772"/>
+  <path d="m192 659 115 68v155l-115-91V659Z" fill="#5c5149"/>
+  <path d="m307 727 187-38v147l-187 46V727Z" fill="#726452"/>
+  <path d="m209 670 84 51v136l-84-67V670Zm115 69 150-31v112l-150 37V739Z" stroke="#aa9273" stroke-width="7"/>
+  <path d="m324 740 150 79m0-110-150 147M212 680l79 166m0-115-79 59" stroke="#aa9273" stroke-width="8"/>
+  <path d="m191 715 116 75 187-42m-302 8 114 80 187-44" stroke="#453e39" stroke-width="3"/>
+  <path d="m1262 643 160-7 109 64-170 15-99-72Z" fill="#9b8469"/>
+  <path d="m1262 643 99 72v146l-99-88V643Z" fill="#75604b"/>
+  <path d="m1361 715 170-15v143l-170 18V715Z" fill="#514c44"/>
+  <path d="m1276 665 72 51v118l-72-65V665Zm99 63 141-12v113l-141 16V728Z" stroke="#b29770" stroke-width="6"/>
+  <path d="m1277 670 71 159m0-109-70 47m99-37 137 95m-1-105-134 122" stroke="#9b805e" stroke-width="7"/>
+  <path d="m1193 615 111-17 84 37-116 20-79-40Z" fill="#c8b18a"/>
+  <path d="m1193 615 79 40v62l-79-43v-59Z" fill="#8e785e"/>
+  <path d="m1272 655 116-20v62l-116 20v-62Z" fill="#a28d6b"/>
+  <path d="m1199 633 72 37 112-18m-183 2 71 39 112-19" stroke="#665a48" stroke-width="3"/>
+  <!-- Paving stones converge on the doorway. -->
+  <g stroke="#b7a18b" stroke-opacity=".13" stroke-width="2"><path d="M803 584 574 900m229-316 43 316m-43-316 409 316m-409-316L50 900m753-316 750 248"/><path d="M431 632h733M347 686h888M259 760h1078M141 851h1323"/></g>
+  <path d="m496 825 53-8 48 10-49 9-52-11Zm580-124 32-1 27 11-32 2-27-12Z" fill="#8f8173" opacity=".3"/>
+  <!-- Utility cables, warm lamps, soft atmospheric depth. -->
+  <path d="M294 255c217 105 610 169 937 79" stroke="#262831" stroke-width="3"/>
+  <path d="M318 277c207 93 615 145 868 78" stroke="#34313a" stroke-width="2"/>
+  <path d="M456 393h14v24h-14z" fill="#39383a"/><path d="M459 398h8v15h-8z" fill="#ffdda0"/>
+  <path d="M1181 394h14v24h-14z" fill="#39383a"/><path d="M1184 399h8v15h-8z" fill="#ffdda0"/>
+  <ellipse cx="465" cy="412" rx="89" ry="115" fill="url(#light)"/>
+  <ellipse cx="1188" cy="414" rx="89" ry="115" fill="url(#light)"/>
+  <path fill="url(#haze)" d="M0 0h1600v900H0z"/>
+</svg>
